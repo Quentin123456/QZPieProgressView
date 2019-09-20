@@ -1,0 +1,6 @@
+use_frameworks!
+target 'QZPieProgressView_Tests' do
+  pod 'QZPieProgressView', :path => '../'
+  
+  
+end
