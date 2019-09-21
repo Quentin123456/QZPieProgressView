@@ -1,0 +1,6 @@
+framework module Pods_QZPieProgressView_Tests {
+  umbrella header "Pods-QZPieProgressView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

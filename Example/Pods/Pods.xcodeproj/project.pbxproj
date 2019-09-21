@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4468A1F67E2C32943897BBC788C711C0 /* Pods-QZPieProgressView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF0A786B98409CBBB5BCD1923F32858 /* Pods-QZPieProgressView_Tests-dummy.m */; };
+		9CA83E507CAD5E53D4D631D81363E9CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A1E288EB2335B9C900D8DA40 /* QZDemoItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288D92335B9C900D8DA40 /* QZDemoItemView.m */; };
+		A1E288EC2335B9C900D8DA40 /* QZDemoItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288DA2335B9C900D8DA40 /* QZDemoItemView.h */; };
+		A1E288ED2335B9C900D8DA40 /* QZBallProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288DC2335B9C900D8DA40 /* QZBallProgressView.h */; };
+		A1E288EE2335B9C900D8DA40 /* QZLoopProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288DD2335B9C900D8DA40 /* QZLoopProgressView.h */; };
+		A1E288EF2335B9C900D8DA40 /* QZPieProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288DE2335B9C900D8DA40 /* QZPieProgressView.h */; };
+		A1E288F02335B9C900D8DA40 /* QZPieLoopProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288DF2335B9C900D8DA40 /* QZPieLoopProgressView.h */; };
+		A1E288F12335B9C900D8DA40 /* QZBaseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288E02335B9C900D8DA40 /* QZBaseProgressView.m */; };
+		A1E288F22335B9C900D8DA40 /* QZTransparentPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288E12335B9C900D8DA40 /* QZTransparentPieProgressView.m */; };
+		A1E288F32335B9C900D8DA40 /* QZRotationLoopProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288E22335B9C900D8DA40 /* QZRotationLoopProgressView.h */; };
+		A1E288F42335B9C900D8DA40 /* QZPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288E32335B9C900D8DA40 /* QZPieProgressView.m */; };
+		A1E288F52335B9C900D8DA40 /* QZLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288E42335B9C900D8DA40 /* QZLoopProgressView.m */; };
+		A1E288F62335B9C900D8DA40 /* QZBallProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288E52335B9C900D8DA40 /* QZBallProgressView.m */; };
+		A1E288F72335B9C900D8DA40 /* QZProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288E62335B9C900D8DA40 /* QZProgressView.h */; };
+		A1E288F82335B9C900D8DA40 /* QZPieLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288E72335B9C900D8DA40 /* QZPieLoopProgressView.m */; };
+		A1E288F92335B9C900D8DA40 /* QZRotationLoopProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E288E82335B9C900D8DA40 /* QZRotationLoopProgressView.m */; };
+		A1E288FA2335B9C900D8DA40 /* QZTransparentPieProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288E92335B9C900D8DA40 /* QZTransparentPieProgressView.h */; };
+		A1E288FB2335B9C900D8DA40 /* QZBaseProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E288EA2335B9C900D8DA40 /* QZBaseProgressView.h */; };
+		B75BE2FD39A31D74333F26C67031E876 /* Pods-QZPieProgressView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00D614EC76E0CFE114B45BBBD0F6C653 /* Pods-QZPieProgressView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA4330673D211B0F2876FE574B6FBC29 /* QZPieProgressView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B35CAABE38B417612FCB1D50A3CD59 /* QZPieProgressView-dummy.m */; };
+		C4F3F3BEF80EA155B571A347DAB0A33B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EA92088398A2203FA7A599619B275065 /* QZPieProgressView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCBF1B8BBAF407F2CFC5326ED964A5DA /* QZPieProgressView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EB0B42235504920932A7BCED4BA7A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4DCFC775AD8B03642CF7B7E3797F5EA;
+			remoteInfo = QZPieProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D614EC76E0CFE114B45BBBD0F6C653 /* Pods-QZPieProgressView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QZPieProgressView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1CF0A786B98409CBBB5BCD1923F32858 /* Pods-QZPieProgressView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QZPieProgressView_Tests-dummy.m"; sourceTree = "<group>"; };
+		24615B391323D712C6172116129DD840 /* Pods-QZPieProgressView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QZPieProgressView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		27A438C28D5B891EE5A24CFBFBB44659 /* Pods-QZPieProgressView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZPieProgressView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		372BB0B414958B23B7F8C633296DB6FB /* Pods-QZPieProgressView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZPieProgressView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BF153A37DB7418C594F54AAC0E20E41 /* Pods-QZPieProgressView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QZPieProgressView_Tests-Info.plist"; sourceTree = "<group>"; };
+		3E4FE5639E842F92F2FCEA4CC92AAB61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		420024332A849514D92309B227C79723 /* QZPieProgressView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZPieProgressView-prefix.pch"; sourceTree = "<group>"; };
+		60F8507AE8742189A4A1172E308C3F30 /* QZPieProgressView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QZPieProgressView.xcconfig; sourceTree = "<group>"; };
+		74EC72F4A4C32FB757DF0FE580C0D12C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		86D48FDE38A05B71750A8F607A346C67 /* Pods-QZPieProgressView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QZPieProgressView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		90F74482735D9F0A58B373FBB6F00332 /* QZPieProgressView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QZPieProgressView.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		94D80D6BEDC6A26C1ABE32EA10961A5D /* QZPieProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QZPieProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A82EF33FCD645B9EA58E0927FC740E6 /* Pods-QZPieProgressView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QZPieProgressView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1E288D92335B9C900D8DA40 /* QZDemoItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDemoItemView.m; sourceTree = "<group>"; };
+		A1E288DA2335B9C900D8DA40 /* QZDemoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDemoItemView.h; sourceTree = "<group>"; };
+		A1E288DC2335B9C900D8DA40 /* QZBallProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZBallProgressView.h; sourceTree = "<group>"; };
+		A1E288DD2335B9C900D8DA40 /* QZLoopProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZLoopProgressView.h; sourceTree = "<group>"; };
+		A1E288DE2335B9C900D8DA40 /* QZPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZPieProgressView.h; sourceTree = "<group>"; };
+		A1E288DF2335B9C900D8DA40 /* QZPieLoopProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZPieLoopProgressView.h; sourceTree = "<group>"; };
+		A1E288E02335B9C900D8DA40 /* QZBaseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBaseProgressView.m; sourceTree = "<group>"; };
+		A1E288E12335B9C900D8DA40 /* QZTransparentPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTransparentPieProgressView.m; sourceTree = "<group>"; };
+		A1E288E22335B9C900D8DA40 /* QZRotationLoopProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZRotationLoopProgressView.h; sourceTree = "<group>"; };
+		A1E288E32335B9C900D8DA40 /* QZPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZPieProgressView.m; sourceTree = "<group>"; };
+		A1E288E42335B9C900D8DA40 /* QZLoopProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZLoopProgressView.m; sourceTree = "<group>"; };
+		A1E288E52335B9C900D8DA40 /* QZBallProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZBallProgressView.m; sourceTree = "<group>"; };
+		A1E288E62335B9C900D8DA40 /* QZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZProgressView.h; sourceTree = "<group>"; };
+		A1E288E72335B9C900D8DA40 /* QZPieLoopProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZPieLoopProgressView.m; sourceTree = "<group>"; };
+		A1E288E82335B9C900D8DA40 /* QZRotationLoopProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZRotationLoopProgressView.m; sourceTree = "<group>"; };
+		A1E288E92335B9C900D8DA40 /* QZTransparentPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTransparentPieProgressView.h; sourceTree = "<group>"; };
+		A1E288EA2335B9C900D8DA40 /* QZBaseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZBaseProgressView.h; sourceTree = "<group>"; };
+		A69E130653AA50B46A04CACB8A34985F /* Pods_QZPieProgressView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QZPieProgressView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B35CAABE38B417612FCB1D50A3CD59 /* QZPieProgressView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QZPieProgressView-dummy.m"; sourceTree = "<group>"; };
+		BDF86A9409DF53D8D24C4B23B35FC086 /* QZPieProgressView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QZPieProgressView.modulemap; sourceTree = "<group>"; };
+		D104EA54D4EDE5DAAE5AFACE0AA16972 /* Pods-QZPieProgressView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QZPieProgressView_Tests.modulemap"; sourceTree = "<group>"; };
+		EA4B73DAB675434B9E3F55BFF30E73F8 /* QZPieProgressView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QZPieProgressView-Info.plist"; sourceTree = "<group>"; };
+		FCBF1B8BBAF407F2CFC5326ED964A5DA /* QZPieProgressView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QZPieProgressView-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71305957B8921B79E38A9EB888DE7DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CA83E507CAD5E53D4D631D81363E9CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F9E627030ED4484E3EC0F619BB6FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F3F3BEF80EA155B571A347DAB0A33B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38561C4B13B1A144BE80721D8A221ED9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE91DFDDF9C3495B9103302E6AEFDBCB /* QZPieProgressView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6B25DA838D97D9177E62D7DE8D0552EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A69E130653AA50B46A04CACB8A34985F /* Pods_QZPieProgressView_Tests.framework */,
+				94D80D6BEDC6A26C1ABE32EA10961A5D /* QZPieProgressView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86485548DD395EA65F112233887A39F2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFB1FC0E375BCDBF4EF3BBBF235481FD /* Pods-QZPieProgressView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		931096AC25D6A232491B11752C5892A6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				74EC72F4A4C32FB757DF0FE580C0D12C /* LICENSE */,
+				90F74482735D9F0A58B373FBB6F00332 /* QZPieProgressView.podspec */,
+				3E4FE5639E842F92F2FCEA4CC92AAB61 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A1E288D82335B9C900D8DA40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1E288D92335B9C900D8DA40 /* QZDemoItemView.m */,
+				A1E288DA2335B9C900D8DA40 /* QZDemoItemView.h */,
+			);
+			name = View;
+			path = QZPieProgressView/View;
+			sourceTree = "<group>";
+		};
+		A1E288DB2335B9C900D8DA40 /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A1E288DC2335B9C900D8DA40 /* QZBallProgressView.h */,
+				A1E288DD2335B9C900D8DA40 /* QZLoopProgressView.h */,
+				A1E288DE2335B9C900D8DA40 /* QZPieProgressView.h */,
+				A1E288DF2335B9C900D8DA40 /* QZPieLoopProgressView.h */,
+				A1E288E02335B9C900D8DA40 /* QZBaseProgressView.m */,
+				A1E288E12335B9C900D8DA40 /* QZTransparentPieProgressView.m */,
+				A1E288E22335B9C900D8DA40 /* QZRotationLoopProgressView.h */,
+				A1E288E32335B9C900D8DA40 /* QZPieProgressView.m */,
+				A1E288E42335B9C900D8DA40 /* QZLoopProgressView.m */,
+				A1E288E52335B9C900D8DA40 /* QZBallProgressView.m */,
+				A1E288E62335B9C900D8DA40 /* QZProgressView.h */,
+				A1E288E72335B9C900D8DA40 /* QZPieLoopProgressView.m */,
+				A1E288E82335B9C900D8DA40 /* QZRotationLoopProgressView.m */,
+				A1E288E92335B9C900D8DA40 /* QZTransparentPieProgressView.h */,
+				A1E288EA2335B9C900D8DA40 /* QZBaseProgressView.h */,
+			);
+			name = ProgressView;
+			path = QZPieProgressView/ProgressView;
+			sourceTree = "<group>";
+		};
+		B23CA299B7E5903863EA3F87A5B4D1F6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDF86A9409DF53D8D24C4B23B35FC086 /* QZPieProgressView.modulemap */,
+				60F8507AE8742189A4A1172E308C3F30 /* QZPieProgressView.xcconfig */,
+				B5B35CAABE38B417612FCB1D50A3CD59 /* QZPieProgressView-dummy.m */,
+				EA4B73DAB675434B9E3F55BFF30E73F8 /* QZPieProgressView-Info.plist */,
+				420024332A849514D92309B227C79723 /* QZPieProgressView-prefix.pch */,
+				FCBF1B8BBAF407F2CFC5326ED964A5DA /* QZPieProgressView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QZPieProgressView";
+			sourceTree = "<group>";
+		};
+		BFB1FC0E375BCDBF4EF3BBBF235481FD /* Pods-QZPieProgressView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D104EA54D4EDE5DAAE5AFACE0AA16972 /* Pods-QZPieProgressView_Tests.modulemap */,
+				86D48FDE38A05B71750A8F607A346C67 /* Pods-QZPieProgressView_Tests-acknowledgements.markdown */,
+				27A438C28D5B891EE5A24CFBFBB44659 /* Pods-QZPieProgressView_Tests-acknowledgements.plist */,
+				1CF0A786B98409CBBB5BCD1923F32858 /* Pods-QZPieProgressView_Tests-dummy.m */,
+				24615B391323D712C6172116129DD840 /* Pods-QZPieProgressView_Tests-frameworks.sh */,
+				3BF153A37DB7418C594F54AAC0E20E41 /* Pods-QZPieProgressView_Tests-Info.plist */,
+				00D614EC76E0CFE114B45BBBD0F6C653 /* Pods-QZPieProgressView_Tests-umbrella.h */,
+				372BB0B414958B23B7F8C633296DB6FB /* Pods-QZPieProgressView_Tests.debug.xcconfig */,
+				9A82EF33FCD645B9EA58E0927FC740E6 /* Pods-QZPieProgressView_Tests.release.xcconfig */,
+			);
+			name = "Pods-QZPieProgressView_Tests";
+			path = "Target Support Files/Pods-QZPieProgressView_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				38561C4B13B1A144BE80721D8A221ED9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6B25DA838D97D9177E62D7DE8D0552EF /* Products */,
+				86485548DD395EA65F112233887A39F2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE91DFDDF9C3495B9103302E6AEFDBCB /* QZPieProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A1E288DB2335B9C900D8DA40 /* ProgressView */,
+				A1E288D82335B9C900D8DA40 /* View */,
+				931096AC25D6A232491B11752C5892A6 /* Pod */,
+				B23CA299B7E5903863EA3F87A5B4D1F6 /* Support Files */,
+			);
+			name = QZPieProgressView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B6200042DEAF0A2784F35D458809872B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA92088398A2203FA7A599619B275065 /* QZPieProgressView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B7982C33AC61E3852A2FAB99972258 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E288F02335B9C900D8DA40 /* QZPieLoopProgressView.h in Headers */,
+				A1E288FA2335B9C900D8DA40 /* QZTransparentPieProgressView.h in Headers */,
+				A1E288F72335B9C900D8DA40 /* QZProgressView.h in Headers */,
+				A1E288F32335B9C900D8DA40 /* QZRotationLoopProgressView.h in Headers */,
+				A1E288EC2335B9C900D8DA40 /* QZDemoItemView.h in Headers */,
+				B75BE2FD39A31D74333F26C67031E876 /* Pods-QZPieProgressView_Tests-umbrella.h in Headers */,
+				A1E288FB2335B9C900D8DA40 /* QZBaseProgressView.h in Headers */,
+				A1E288ED2335B9C900D8DA40 /* QZBallProgressView.h in Headers */,
+				A1E288EF2335B9C900D8DA40 /* QZPieProgressView.h in Headers */,
+				A1E288EE2335B9C900D8DA40 /* QZLoopProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		47446232DBB278E4CD1B7996C136477F /* Pods-QZPieProgressView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1E5D561502E27BF9D6F896F4C6120C /* Build configuration list for PBXNativeTarget "Pods-QZPieProgressView_Tests" */;
+			buildPhases = (
+				F8B7982C33AC61E3852A2FAB99972258 /* Headers */,
+				92FBAFD3668F26EA7899E9B03D827A21 /* Sources */,
+				E3F9E627030ED4484E3EC0F619BB6FF9 /* Frameworks */,
+				B045244F81EC5EC2B746361CD3A5E1AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04C047D7FEACB4B4584B7ABFB9153A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-QZPieProgressView_Tests";
+			productName = "Pods-QZPieProgressView_Tests";
+			productReference = A69E130653AA50B46A04CACB8A34985F /* Pods_QZPieProgressView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4DCFC775AD8B03642CF7B7E3797F5EA /* QZPieProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB751DFC68BD329421AB2FB08F034632 /* Build configuration list for PBXNativeTarget "QZPieProgressView" */;
+			buildPhases = (
+				B6200042DEAF0A2784F35D458809872B /* Headers */,
+				B9103B157D6ECB8ADF4311AF87EC15FA /* Sources */,
+				71305957B8921B79E38A9EB888DE7DA5 /* Frameworks */,
+				07999E1230F96716DCDECF60A9EC8493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZPieProgressView;
+			productName = QZPieProgressView;
+			productReference = 94D80D6BEDC6A26C1ABE32EA10961A5D /* QZPieProgressView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6B25DA838D97D9177E62D7DE8D0552EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47446232DBB278E4CD1B7996C136477F /* Pods-QZPieProgressView_Tests */,
+				C4DCFC775AD8B03642CF7B7E3797F5EA /* QZPieProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07999E1230F96716DCDECF60A9EC8493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B045244F81EC5EC2B746361CD3A5E1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92FBAFD3668F26EA7899E9B03D827A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E288F52335B9C900D8DA40 /* QZLoopProgressView.m in Sources */,
+				A1E288F62335B9C900D8DA40 /* QZBallProgressView.m in Sources */,
+				A1E288F22335B9C900D8DA40 /* QZTransparentPieProgressView.m in Sources */,
+				4468A1F67E2C32943897BBC788C711C0 /* Pods-QZPieProgressView_Tests-dummy.m in Sources */,
+				A1E288F12335B9C900D8DA40 /* QZBaseProgressView.m in Sources */,
+				A1E288F92335B9C900D8DA40 /* QZRotationLoopProgressView.m in Sources */,
+				A1E288F82335B9C900D8DA40 /* QZPieLoopProgressView.m in Sources */,
+				A1E288F42335B9C900D8DA40 /* QZPieProgressView.m in Sources */,
+				A1E288EB2335B9C900D8DA40 /* QZDemoItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9103B157D6ECB8ADF4311AF87EC15FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4330673D211B0F2876FE574B6FBC29 /* QZPieProgressView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04C047D7FEACB4B4584B7ABFB9153A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QZPieProgressView;
+			target = C4DCFC775AD8B03642CF7B7E3797F5EA /* QZPieProgressView */;
+			targetProxy = 4EB0B42235504920932A7BCED4BA7A5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074F4227736298114F6163CABB4979B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F8507AE8742189A4A1172E308C3F30 /* QZPieProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QZPieProgressView/QZPieProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QZPieProgressView/QZPieProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QZPieProgressView/QZPieProgressView.modulemap";
+				PRODUCT_MODULE_NAME = QZPieProgressView;
+				PRODUCT_NAME = QZPieProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E63B738AB000AA1EABC734A4C1C1B28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F8507AE8742189A4A1172E308C3F30 /* QZPieProgressView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QZPieProgressView/QZPieProgressView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QZPieProgressView/QZPieProgressView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QZPieProgressView/QZPieProgressView.modulemap";
+				PRODUCT_MODULE_NAME = QZPieProgressView;
+				PRODUCT_NAME = QZPieProgressView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F1A53DF158AA5C6710AB4C5B1678EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372BB0B414958B23B7F8C633296DB6FB /* Pods-QZPieProgressView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZPieProgressView_Tests/Pods-QZPieProgressView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZPieProgressView_Tests/Pods-QZPieProgressView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0BC224CD25AA8C96B16978DDD109C31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A82EF33FCD645B9EA58E0927FC740E6 /* Pods-QZPieProgressView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QZPieProgressView_Tests/Pods-QZPieProgressView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QZPieProgressView_Tests/Pods-QZPieProgressView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C1E5D561502E27BF9D6F896F4C6120C /* Build configuration list for PBXNativeTarget "Pods-QZPieProgressView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F1A53DF158AA5C6710AB4C5B1678EC9 /* Debug */,
+				B0BC224CD25AA8C96B16978DDD109C31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB751DFC68BD329421AB2FB08F034632 /* Build configuration list for PBXNativeTarget "QZPieProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074F4227736298114F6163CABB4979B9 /* Debug */,
+				1E63B738AB000AA1EABC734A4C1C1B28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

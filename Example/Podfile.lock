@@ -1,0 +1,16 @@
+PODS:
+  - QZPieProgressView (0.1.0)
+
+DEPENDENCIES:
+  - QZPieProgressView (from `../`)
+
+EXTERNAL SOURCES:
+  QZPieProgressView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QZPieProgressView: 2f493bcc5fd7356abd04c287bfd75dd0b46d2a07
+
+PODFILE CHECKSUM: b957f2f2725cd65dd0387c269e13ef417838ac6e
+
+COCOAPODS: 1.7.5
